@@ -4,7 +4,7 @@ Below are some implementation of APIs used on  https://triphappy.com
 
 * Yahoo Finance
 * Flickr
-* Google Places / Google Javascript API
+* Google Javascript API
 * Imagemagick
 * Wikimedia
 * Free GeoIP
@@ -13,7 +13,7 @@ Below are some implementation of APIs used on  https://triphappy.com
 
 * Install [HTTParty gem](https://github.com/jnunemaker/httparty)
 * Copy your desired helper into App > Assets > Helpers
-* Change API KEY
+* Change ``` 'INSERT_API_KEY_HERE' ``` to your API key, preferably using environment variables
 * Enjoy
 
 ## Example Usage
