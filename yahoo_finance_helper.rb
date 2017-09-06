@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CurrencyHelper
+module YahooFinanceHelper
   include HTTParty
 
   # API docs: https://developer.yahoo.com/yql/console/?q=show%20tables&env=store://datatables.org/alltableswithkeys#h=select+*+from+yahoo.finance.xchange+where+pair+in+(%22USDMXN%22%2C+%22USDCHF%22)

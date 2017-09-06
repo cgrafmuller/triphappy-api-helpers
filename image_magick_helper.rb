@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module ImageMagick
+module ImageMagickHelper
   # Resizes an image to the specified width & height
   # Returns the file image name
   def self.resize_image(image_name, base_path, width = 1440, height = 400)

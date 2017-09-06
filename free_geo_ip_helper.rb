@@ -2,7 +2,7 @@
 
 # Provides IP geo-location calls
 
-module LocationHelper
+module FreeGeoIpHelper
   include HTTParty
   class Location
     def self.convert_ip_to_iso2(ip)
